@@ -1,0 +1,9 @@
+.note{
+    color: $stats-color;
+    font-size: 0.60rem;
+    font-style:italic;
+    padding: 0.5rem;
+    @include mq(768px) {
+        font-size: 0.75rem;
+    }
+}

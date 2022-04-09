@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="http://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <link rel="icon" sizes="96x96" href="./images/Philippine_Statistics_Authority_icon.png">
+    <script src="./js/main.js" type="module"></script>
+    <title>RID Tracker</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="logo">
+               <div class="PSAlogo"> 
+                   <img src="./images/Philippine_Statistics_Authority.svg" alt="PSA Logo">
+               </div>
+               <div class="PhilSyslogo">
+                <img src="./images/PSA_PhilSys_logo.png" alt="PhilSys Logo">
+            </div>
+            </div>
+        </section>
+        <section class="searchEntry">
+            <form id="searchBar" class="searchBar">
+                <input type="text" id="search" autocomplete="off"  placeholder="Enter transaction number"/>
+                <div id="clear" class="none button clear">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <button id="searchButton" class="button searchButton" type="submit">
+                    <i class="fa-solid fa-magnifying-glass blue"></i>
+                </button>
+            </form>
+        </section>
+
+        <section>
+            <div class="note" id="note">
+                <p>*Transaction number is the 29-digit number found on your transaction slip.</p>
+            </div>
+        </section>
+
+        <section class="result">
+            <div class="searchResult" id="searchContent">
+               <!-- <p>Result found for Transaction number 10451205990018920210320033548.</p>
+               <p>You may claim your National ID at: </p>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+               <p>Bring any of the following ID/documents listed <a href="docsList.html" target="blank">HERE.</a></p> -->
+            </div>
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        <ul class="socials">
+            <a href="https://www.facebook.com/psacamsur" target="_blank"><li><i class="fa-brands fa-facebook-square"></i></li></a>
+            <a href="https://www.instagram.com/psacamsur/?igshid=YmMyMTA2M2Y=" target="_blank"><li><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://psacamsur.wordpress.com/" target="_blank"><li><i class="fa-brands fa-wordpress"></i></li></a>
+          </ul>
+          <div class="bottom-notes">
+            <p><i class="fa-solid fa-location-dot"></i> #774, PSA Bldg., Panganiban Drive, Naga City 4400</p>
+            <p><i class="fa-solid fa-phone"></i> (054) 871-56-73   
+               <i class="fa-solid fa-fax"></i> (054)-472-56-22
+            </p>
+            <p><i class="fa-solid fa-envelope"></i> psa_camsur@yahoo.com.ph</p>
+          </div>         
+        <p>PhilSys Camarines Sur <span>&copy;</span> 2022 </p>
+    </footer>
+    
+</body>
+</html>
