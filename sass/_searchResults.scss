@@ -2,7 +2,7 @@
     @include flexColumn;
     width: 95vw;
     font-size: 1rem;
-    padding-top:1.5rem;
+    padding: 1.5rem 0;
     @include mq(768px) {
         width:75vw;
         padding:2rem;
@@ -14,21 +14,27 @@
     .searchResult{
         width:100%;
         text-align:left;
+        padding: 0 0.5rem;
         @include mq(768px){
-            padding: 0.5rem 0;
             font-size: 1.5rem;
             line-height: 1rem;
         }
 
-        p{
-            font-size: 0.75rem;   
+        .rows {
+            padding:0.5rem;
+
+            p{
+                font-size: 0.75rem;   
+            }
+    
+            a{
+                font-weight: bold;
+                color:$logo-blue;
+                text-decoration:none;
+                cursor:pointer;           
+            }
         }
 
-        a{
-            font-weight: bold;
-            color:$logo-blue;
-            text-decoration:none;
-            cursor:pointer;           
-        }
+       
     }
 }
