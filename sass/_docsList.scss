@@ -5,6 +5,7 @@
     display:inline-block;
     justify-content: center;
     line-height:1rem;
+    padding: 1rem 0.5rem;
     @include mq(768px){
         display:inline-flex;
         padding:1rem; 
@@ -46,10 +47,8 @@
 
 .reqContent{
     justify-content: center;
-    padding-bottom:2rem;  
-    margin-top:2rem;
     font-size:0.75rem;
-    padding:0.5rem;
+    padding:2rem 1rem;
     @include mq(768px){
         padding-top:2rem;  
         width:90vw;
@@ -66,9 +65,6 @@
             margin-bottom:2rem;
         }
         .secondary{
-            margin-bottom:2rem;
-        }
-        .tertiary{
             margin-bottom:2rem;
         }
        
