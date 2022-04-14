@@ -2,8 +2,8 @@
     color: $stats-color;
     font-size: 0.60rem;
     font-style:italic;
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     @include mq(768px) {
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
 }
